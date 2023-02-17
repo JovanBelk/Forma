@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.info{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('https://i.pinimg.com/originals/2b/f2/76/2bf2766081f8a554ebabe583708f8397.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+} 
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.link{
+    flex: 1;
+    text-align: right;
+}
+.link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.link ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.link ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #2fd0f4;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.link ul li:hover::after{
+    width: 100%;
+}
+
+
+
+
+.tekst{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.tekst h1{
+    font-size: 62px;
+}
+.tekst p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff'
+}
+
+
+
+
+.kopce{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.kopce:hover{
+    border: 1px solid #6cdcf9;
+    background: #64d3f8;
+    transition: 1s;
+}
+
+
+
+
+nav .fa{
+    display: none;
+}
+@media(max-width: 700px){
+    .tekst h1{
+        font-size: 20px;
+    }
+    .link ul li{
+        display: block;
+    }
+    .link{
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+    nav.fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .link ul{
+        padding: 30px;
+    }
+}
+
+
+
+
+
+.ohh{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    color:rgb(106, 107, 107);
+}
+h1{
+    font-size: 36px;
+    font-weight: 600px;
+}
+p{
+    color: rgb(148, 149, 150);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.ohh1{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.ohh1-oh{
+    flex-basis: 31%;
+    background: #b7f1fb;
+    border-radius: 10%;
+    margin-bottom: 5%;
+    padding: 20px 2px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.ohh1-oh:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width: 700px){
+    .ohh1{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+.plaza{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    color:rgb(106, 107, 107);
+}
+.ohh1-oh{
+    flex-basis: 32%;
+    border-radius:10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow:hidden;
+}
+.ohh1-oh img{
+    width: 100%;
+    display: block;
+}
+.egoist{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.egoist:hover{
+    background: rgba(140, 229, 243, 0.7);
+}
+.egoist h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 40px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+.egoist:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+
+
+
+
+.istorijat{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    color:rgb(106, 107, 107);
+}
+.istorijat-oh{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.istorijat-oh img{
+  width: 100%;
+  border-radius: 10px;
+}
+.istorijat-oh p{
+    padding: 0;
+}
+.istorijat-oh h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+
+
+.vodici{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    color:rgb(106, 107, 107);
+}
+.vodici-oh{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #b7f1fb;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+.vodici-oh img{
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.vodici-oh p{
+    padding: 0;
+}
+.vodici-oh h3{
+    margin-top: 15px;
+    text-align: left;
+}
+
+
+
+
+
+.vauceri{
+    margin: 100px auto;
+    width: 80%;
+    background-image: url('https://sdk.mk/wp-content/uploads/2020/10/Ohrid-Kaneo.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.vauceri h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+
+
+
+.nas{
+    font-size: 23px;
+    text-align: center;
+    background-color: #cef1f7;
+}
+

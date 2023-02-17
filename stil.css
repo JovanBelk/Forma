@@ -1,0 +1,50 @@
+body{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Flight-blue-background&psig=AOvVaw0vi4voaemnmVlzsbEnLon6&ust=1676618599320000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCNjW-Y3Bmf0CFQAAAAAdAAAAABAD)
+}
+
+.tekst{
+    font-size:26px;
+    color:rgb(84, 82, 82);
+    font-style: center;
+    margin-top:12px;
+    text-align: center;
+    border:4px solid Tomato;
+}
+#tekst1{
+    font-size:19px;
+    border:4px double  Tomato;
+    border-width:6px;
+    padding-top:20px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 8px;
+    background-color: rgb(213, 235, 242);
+}
+#kopce{
+    font-size:24px;
+    background-color: red;
+    text-emphasis-color: rgb(6, 6, 6);
+    border:4px solid rgb(249, 246, 246);
+    margin-top:12px;
+}
+#linkk{
+    font-size:16px;
+    color:rgb(4, 4, 4);
+    border:3px solid blue;
+    padding:6px;
+    margin-top:20px;
+    font-style:left;
+    border:3px double blueviolet;
+    padding-top:30px;
+    padding-bottom: 3px;
+    padding-left:13px;
+    padding-right:13px;
+    font-style:center;
+}
+#par{
+    font-size:18px;
+    color:brown;
+    margin:6px;
+    padding:9px;
+    border:2px hidden;
+}
